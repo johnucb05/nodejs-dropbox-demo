@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-dropbox-demo",
+  "version": "1.0.0",
+  "description": "This is a basic Dropbox clone to sync files across multiple remote folders.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js --dir=./",
+    "client": "nodemon --exec babel-node -- --stage 1 --optional strict -- index.js --client --dir='./'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "echo yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnucb05/nodejs-dropbox-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnucb05/nodejs-dropbox-demo/issues"
+  },
+  "homepage": "https://github.com/johnucb05/nodejs-dropbox-demo#readme",
+  "dependencies": {
+    "archiver": "^0.21.0",
+    "bluebird": "^3.1.1",
+    "bluebird-nodeify": "^1.0.0",
+    "chokidar": "^1.4.2",
+    "express": "^4.13.3",
+    "fstream": "^1.0.8",
+    "json-socket": "^0.1.2",
+    "mime-types": "^2.1.9",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.6.1",
+    "rimraf": "^2.5.0",
+    "songbird": "^1.0.1",
+    "tar": "^2.2.1",
+    "yargs": "^3.31.0"
+  }
+}
