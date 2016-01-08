@@ -5,6 +5,7 @@ This is a basic Dropbox clone to sync files across multiple remote folders.
 NOTE: Instruction may have been insufficient. Please do not use "npm start" and "npm run client". Please use the following:
 
 SERVER: nodemon --exec babel-node -- --stage 1 --optional strict -- ../index. - --dir='./'
+
 CLIENT: nodemon --exec babel-node -- --stage 1 --optional strict -- ../index.js --client --dir='./'
 
 Time spent: 12 hours
